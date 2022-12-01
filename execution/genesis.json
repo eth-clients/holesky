@@ -17,7 +17,7 @@
     "terminalTotalDifficulty":0,
     "terminalTotalDifficultyPassed":true
   },
-  "nonce":"0x0",
+  "nonce":"0x539",
   "timestamp":"0x63877A18",
   "extraData":"0x62a22d1d2d05e49500fa27f39819f1bc64f0691776a472f17b27f0fa9e73ea4a",
   "gasLimit":"0x400000",
@@ -30,7 +30,7 @@
   "baseFeePerGas":null,
   "alloc":{
     "0xCaA29806044A08E533963b2e573C1230A2cd9a2d":{
-      "balance":"0x48806E540B8EEE0000"
+      "balance":"0x48806e540b8eee0000"
     },
     "0x000000006465706F73697420636f6E7472616374":{
       "balance":"0x0",
