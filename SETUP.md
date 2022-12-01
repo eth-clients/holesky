@@ -1,6 +1,6 @@
 # How to setup a post-merge Testnet
 
-Field notes from setting up a public Ethereum testnet that is _"merged from genesis."_ It has been compiled from many bits and pieces on the web with main pioneering work done by protolambda and parithosh.
+Field notes from setting up a public Ethereum testnet that is _"merged from genesis."_ It has been compiled from many bits and pieces on the web with main pioneering work done by Protolambda and Parithosh.
 
 ### Execution-Layer Configuration
 
@@ -10,10 +10,10 @@ Creating a new genesis is as simple as running `geth dumpgenesis` and subsequent
 - set merge block and TTD to `0` and set the TTD passed flag to `true`
 - remove the `ethash` parameter altogether
 - remove the existing `alloc` as well and create a custom allocation as per our needs
-- adjust the genesis parameters as we wish (mainly `timestamp`, `extraData`)
+- adjust the genesis parameters as we wish (mainly `timestamp`, `extraData`, `nonce`)
   - current unix time: `date +%s`
   - note that all fields needs to be hexadecimal
-- lastly, set a new `chainID`
+- lastly, set a new `chainID` for replay protection
 
 Now all that is left is the deposit contract. Since we _merge from genesis_, this has to be part of the genesis state.
 
@@ -81,7 +81,7 @@ To create a new consensus-layer configuration, simply get the latest [mainnet.ya
 - come up with a unique `CONFIG_NAME`, i.e., the name of our testnet
 - set TTD to `0` and the terminal hash to the genesis hash we previously extracted
 - set the minimum genesis time to the genesis time of the execution layer (or later)
-- set the fork versions to something custom to not conflict from mainnet, e.g., `0x00166111` for genesis, `0x01166111` for altair, and so on
+- set the fork versions to something custom to not conflict with mainnet, e.g., `0x00166111` for genesis, `0x01166111` for altair, and so on
 - set the deposit chain and network ID to the previously created execution-layer network and match the deposit contract address to the one in the genesis
 
 In addition to the `config.yaml` for the consensus layer, we also create auxiliary files for the deposit contract:
@@ -148,16 +148,32 @@ We do this for as many beacon nodes as we want. Note that we need to enable disc
 
 ### Launch the Network
 
-We have both execution-layer and consensus-layer clients running already. We can easily make sure they are correctly running by reading the logs. If they fail to authenticate or connect, there will be errors.
+We have both execution-layer and consensus-layer clients running already. We can easily make sure they are running correctly by reading the logs. If they fail to authenticate or connect, there will be errors.
 
 However, to actually kick off the network, we need to ensure the validators are loaded and connected prior to genesis. If we fail to generate a chain within the first 32 slots the clients will remain forever in a _syncing_ state, potentially to prevent long-range attacks.
 
 - use the [deposit CLI](https://github.com/ethereum/staking-deposit-cli) to generate validator keypairs
-  - `./deposit existing-mnemonic` and follow the instructions
+- run `./deposit existing-mnemonic` and follow the instructions
+
+This generates deposit data and the actual keypairs. The deposit data can be discarded as we don't need actual deposits. The keys can be imported to our validator client. Make sure to also provide a password.
+
+```shell
+lodestar validator \
+  --dataDir "/tmp/holesovice/consensus/0" \
+  --suggestedFeeRecipient "0xCaA29806044A08E533963b2e573C1230A2cd9a2d" \
+  --graffiti "YOLO HOLESOVICE LODESTAR" \
+  --paramsFile "/home/user/.opt/eth-clients/holesovice/consensus/config.yaml" \
+  --importKeystores "/home/user/.opt/eth-clients/holesovice/consensus/validator_keys" \
+  --importKeystoresPassword "/home/user/.opt/eth-clients/holesovice/consensus/validator_keys/password.txt"
+```
+
+Once the keys and passwords are imported, the validator client will wait to take on its duties. Once the minimum genesis time (and genesis delay) are passed, it will propose blocks and attestations.
+
+That's our new testnet.
 
 # Resources
 
-Credit goes to Gadjinder, Parithosh, and Protolamda for the valuable pointers, tools, and documentation.
+Credit goes to Gajinder, Parithosh, and Protolamda for the valuable pointers, tools, and documentation.
 
 - [github/protolambda/merge-genesis-tools](https://github.com/protolambda/merge-genesis-tools)
 - [github/ethereum/consensus-specs](https://github.com/ethereum/consensus-specs)
