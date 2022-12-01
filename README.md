@@ -1,8 +1,9 @@
+<p align="center"><a href="https://github.com/eth-clients/goerli">Goerli (2019)</a> | <a href="https://github.com/eth-clients/sepolia">Sepolia (2021)</a> | <strong>Holesovice (2023)</strong></p>
+<p align="center"><img src="./assets/holesovice.png" /></p>
+
 # Holesovice Testnet Configuration
 
 The first long-standing, merged-from-genesis, public Ethereum testnet.
-
-* Previous: [Sepolia](https://github.com/eth-clients/sepolia) (2021-26)
 
 ### Metadata
 
