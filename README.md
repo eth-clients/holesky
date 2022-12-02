@@ -7,7 +7,7 @@ The first long-standing, merged-from-genesis, public Ethereum testnet.
 
 ### Metadata
 
-This is _work in progress_. The final config will be shared on launch date.
+This is _work in progress_. The final config will be shared prior to launch date.
 
 * Status: _Planned_
 * Flavor: Permissionless (Proof-of-Stake)
