@@ -9,7 +9,7 @@ The first long-standing, merged-from-genesis, public Ethereum testnet.
 
 This is _work in progress_. The final config will be shared prior to launch date.
 
-* Status: _Planned_
+* Status: _Planned_ ([#3](https://github.com/eth-clients/holesovice/issues/3))
 * Flavor: Permissionless (Proof-of-Stake)
 * Launch Date: **Sept/15, 2023** _(TBD)_
   * LTS: Dec/2027, EOL: Dec/2028
