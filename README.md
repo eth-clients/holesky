@@ -1,9 +1,9 @@
-<p align="center"><a href="https://github.com/eth-clients/goerli">Goerli (2019)</a> | <a href="https://github.com/eth-clients/sepolia">Sepolia (2021)</a> | <strong>Holesovice (2023)</strong></p>
+<p align="center"><a href="https://github.com/eth-clients/goerli">Goerli (2019)</a> | <a href="https://github.com/eth-clients/sepolia">Sepolia (2021)</a> | <strong>Holli (2023)</strong></p>
 <p align="center"><img src="./assets/holesovice.png" /></p>
 
-# Holesovice Testnet Configuration
+# Holli (Holešovice Testnet)
 
-The first long-standing, merged-from-genesis, public Ethereum testnet.
+Meet `--holli`, the first long-standing, merged-from-genesis, public Ethereum testnet.
 
 ### Metadata
 
