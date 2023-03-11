@@ -24,7 +24,7 @@ jobs:
         chmod +x $tmp_dir/funding-tool
 
         echo "Run funding-tool"
-        $tmp_dir/funding-tool -f ./funding-list.txt -m 20 --use-distributor --distributor-batch-size 20 --gaslimit 1000000 --maxfeepergas 200 --maxpriofee 5 -p env --random-privkey -o ./transactions.txt --chainid 11166111 --summary ./summary.txt
+        $tmp_dir/funding-tool -f ./funding-list.txt -m 20 --use-distributor --distributor-batch-size 50 --gaslimit 2000000 --maxfeepergas 200 --maxpriofee 5 -p env --random-privkey -o ./transactions.txt --chainid 11166111 --summary ./summary.txt
 
         echo ""
         echo "Distribution Summary:"
