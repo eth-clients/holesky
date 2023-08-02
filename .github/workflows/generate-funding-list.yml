@@ -1,0 +1,51 @@
+
+name: Generate funding list
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate_list:
+    name: Generate funding list
+    runs-on: ubuntu-latest
+    env:
+      FUNDINGTOOL_PRIVKEY: '${{ secrets.FUNDINGTOOL_PRIVKEY }}'
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run funding-tool
+      run: |
+        cd fund-distribution
+
+        tmp_dir=$(mktemp -d -t ft-XXXXXXXXXX)
+        fundingtool_release=`curl --silent "https://api.github.com/repos/pk910/testnet-funding-tool/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | head -n 1`
+        echo "Download testnet-funding-tool v${fundingtool_release}"
+        wget -O $tmp_dir/funding-tool https://github.com/pk910/testnet-funding-tool/releases/download/$fundingtool_release/funding-tool-amd64
+        chmod +x $tmp_dir/funding-tool
+
+        echo "Run funding-tool"
+        $tmp_dir/funding-tool -f ./funding-list.txt --use-distributor --distributor-batch-size 50 --gaslimit 2000000 --maxfeepergas 200 --maxpriofee 5 -p env --random-privkey -o ./transactions.txt --chainid 11166111 --summary ./summary.txt
+
+        echo ""
+        echo "Distribution Summary:"
+        cat ./summary.txt
+
+    #- uses: stefanzweifel/git-auto-commit-action@v4
+    #  with:
+    #    commit_message: Commit generated funding & transactio list
+    #    branch: master
+    #    push_options: '--force'
+    #    skip_checkout: true
+
+    - name: Upload transactions.txt artifact
+      uses: actions/upload-artifact@v3
+      with:
+        path: ./fund-distribution/transactions.txt
+        name: transactions.txt
+    - name: Upload summary.txt artifact
+      uses: actions/upload-artifact@v3
+      with:
+        path: ./fund-distribution/summary.txt
+        name: summary.txt
+
+
