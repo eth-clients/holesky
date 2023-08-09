@@ -11,7 +11,8 @@ This is _work in progress_. The final config will be shared prior to launch date
 
 * Status: _Planned_ ([#3](https://github.com/eth-clients/holesky/issues/3))
 * Flavor: Permissionless (Proof-of-Stake), _to replace Goerli_
-* Launch Date:  **Sept/15, 2023, 14:00 UTC** (1694786400) 
+* Launch Date: **Sept/15, 2023, 14:00 UTC** 
+  * Epoch time: 1694786400
   * LTS: Dec/2027, EOL: Dec/2028
 * Execution Version: Cancun _(TBD)_
 * Consensus Version: Deneb _(TBD)_
