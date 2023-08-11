@@ -4,7 +4,7 @@ PRESET_BASE: 'mainnet'
 
 # Free-form short name of the network that this configuration applies to
 # Must match the regex: [a-z0-9\-]
-CONFIG_NAME: 'holesovice'
+CONFIG_NAME: 'holesky'
 
 # Transition
 # ---------------------------------------------------------------
@@ -19,12 +19,12 @@ TERMINAL_BLOCK_HASH_ACTIVATION_EPOCH: 0  # Sep 15, 2023, 2pm UTC
 # ---------------------------------------------------------------
 # `2**14` (= 16,384)
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 8
-# Sep 15, 2023, 2pm UTC
-MIN_GENESIS_TIME: 1669823000
-# Mainnet initial fork version, recommend altering for testnets
-GENESIS_FORK_VERSION: 0x00166111
-# 3600 seconds (1 hour)
-GENESIS_DELAY: 3600
+# Sep 15, 2023, 13:55 UTC
+MIN_GENESIS_TIME: 1694786100
+# Holesky initial fork version
+GENESIS_FORK_VERSION: 0x00017000
+# 300 seconds (5 mins)
+GENESIS_DELAY: 300
 
 
 # Forking
@@ -34,17 +34,17 @@ GENESIS_DELAY: 3600
 #  - Temporarily set to max uint64 value: 2**64 - 1
 
 # Altair
-ALTAIR_FORK_VERSION: 0x01166111
-ALTAIR_FORK_EPOCH: 0  # Sep 15, 2023, 2pm UTC
+ALTAIR_FORK_VERSION: 0x00017000
+ALTAIR_FORK_EPOCH: 0  # Sep 15, 2023, 14:00:00 UTC
 # Bellatrix
-BELLATRIX_FORK_VERSION: 0x02166111
-BELLATRIX_FORK_EPOCH: 0  # Sep 15, 2023, 2pm UTC
+BELLATRIX_FORK_VERSION: 0x10017000
+BELLATRIX_FORK_EPOCH: 0  # Sep 15, 2023, 14:00:00 UTC
 # Capella
-CAPELLA_FORK_VERSION: 0x03166111
-CAPELLA_FORK_EPOCH: 18446744073709551615  # Disabled
-# EIP4844
-EIP4844_FORK_VERSION: 0x04166111
-EIP4844_FORK_EPOCH: 18446744073709551615  # Disabled
+CAPELLA_FORK_VERSION: 0x20017000
+CAPELLA_FORK_EPOCH: 1694790240  # Epoch 10, Sep 15 2023 15:04:00 UTC
+# Deneb
+DENEB_FORK_VERSION: 0x30017000
+DENEB_FORK_EPOCH: 18446744073709551615  # Disabled
 
 # Time parameters
 # ---------------------------------------------------------------
@@ -82,6 +82,6 @@ PROPOSER_SCORE_BOOST: 40
 # Deposit contract
 # ---------------------------------------------------------------
 # Holesovice Testnet
-DEPOSIT_CHAIN_ID: 11166111
-DEPOSIT_NETWORK_ID: 11166111
+DEPOSIT_CHAIN_ID: 17000
+DEPOSIT_NETWORK_ID: 17000
 DEPOSIT_CONTRACT_ADDRESS: 0x000000006465706F73697420636f6E7472616374

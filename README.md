@@ -11,13 +11,15 @@ This is _work in progress_. The final config will be shared prior to launch date
 
 * Status: _Planned_ ([#3](https://github.com/eth-clients/holesky/issues/3))
 * Flavor: Permissionless (Proof-of-Stake), _to replace Goerli_
-* Launch Date: **Sept/15, 2023, 14:00 UTC**
+* Launch Date: **Sept/15, 2023, 14:00 UTC** 
+  * Epoch time: 1694786400
   * LTS: Dec/2027, EOL: Dec/2028
 * Execution Version: Cancun _(TBD)_
 * Consensus Version: Deneb _(TBD)_
 * Merge: At Genesis (`0`)
-* Network ID: `11166111`
-* Chain ID: `11166111`
+* Shapella Epoch: (`10)
+* Network ID: `17000`
+* Chain ID: `17000`
 
 ### Resources
 

@@ -1,6 +1,6 @@
 {
   "config":{
-    "chainId":11166111,
+    "chainId":17000,
     "homesteadBlock":0,
     "eip150Block":0,
     "eip155Block":0,
@@ -16,14 +16,13 @@
     "mergeNetsplitBlock":0,
     "terminalTotalDifficulty":0,
     "terminalTotalDifficultyPassed":true,
-    "shanghaiTime":"0x65046360",
-    "cancunTime":"0x65046360"
+    "shanghaiTime": 1694790240
   },
   "nonce":"0x539",
   "timestamp":"0x65046360",
   "extraData":"0x62a22d1d2d05e49500fa27f39819f1bc64f0691776a472f17b27f0fa9e73ea4a",
   "gasLimit":"0x1c9c380",
-  "difficulty":"0x1",
+  "difficulty":"0x01",
   "mixHash":"0x0000000000000000000000000000000000000000000000000000000000000000",
   "coinbase":"0x0000000000000000000000000000000000000000",
   "number":"0x0",
