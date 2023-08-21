@@ -1,6 +1,6 @@
 # Extends the mainnet preset
 PRESET_BASE: 'mainnet'
-CONFIG_NAME: testnet # needs to exist because of Prysm. Otherwise it conflicts with mainnet genesis
+CONFIG_NAME: holesky 
 
 # Genesis
 # ---------------------------------------------------------------
@@ -57,7 +57,7 @@ ETH1_FOLLOW_DISTANCE: 12
 INACTIVITY_SCORE_BIAS: 4
 # 2**4 (= 16)
 INACTIVITY_SCORE_RECOVERY_RATE: 16
-# 2**4 * 10**9 (= 16,000,000,000) Gwei
+# 28,000,000,000 Gwei to ensure quicker ejection
 EJECTION_BALANCE: 28000000000
 # 2**2 (= 4)
 MIN_PER_EPOCH_CHURN_LIMIT: 4
