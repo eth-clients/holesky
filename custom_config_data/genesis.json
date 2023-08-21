@@ -15,7 +15,7 @@
     "terminalTotalDifficulty": 0,
     "terminalTotalDifficultyPassed": true,
     "shanghaiTime": 1694790240,
-    "cancunTime": 7085244510432
+    "cancunTime": 18446744073709551615
   },
   "alloc": {
     "0x0000000000000000000000000000000000000000": {
