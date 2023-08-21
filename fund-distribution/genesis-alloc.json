@@ -935,6 +935,12 @@
     },
     "0xD1F77E4C1C45186e8653C489F90e008a73597296": {
       "balance": "0xd3c21bcecceda1000000"
+    },
+    "0xb04aeF2a3d2D86B01006cCD4339A2e943d9c6480": {
+      "balance":"0xd3c21bcecceda1000000"
+    },
+    "0xC9CA2bA9A27De1Db589d8c33Ab8EDFa2111b31fb": {
+      "balance":"0xd3c21bcecceda1000000"
     }
   }
 }
