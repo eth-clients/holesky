@@ -6,10 +6,11 @@ CONFIG_NAME: holesky
 # ---------------------------------------------------------------
 # `2**14` (= 16,384)
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 16384
-# Mar-01-2021 08:53:32 AM +UTC
+# Sep-15-2023 14:55:00 +UTC
 # This is an invalid valid and should be updated when you create the genesis
 MIN_GENESIS_TIME: 1694786100
 GENESIS_FORK_VERSION: 0x00017000
+# Genesis delay 5 mins
 GENESIS_DELAY: 300
 
 
@@ -42,13 +43,13 @@ DENEB_FORK_EPOCH: 18446744073709551615
 # 12 seconds
 SECONDS_PER_SLOT: 12
 # 14 (estimate from Eth1 mainnet)
-SECONDS_PER_ETH1_BLOCK: 12
-# 2**0 (= 1) epochs ~1 hours
-MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 1
+SECONDS_PER_ETH1_BLOCK: 14
 # 2**8 (= 256) epochs ~27 hours
-SHARD_COMMITTEE_PERIOD: 1
+MIN_VALIDATOR_WITHDRAWABILITY_DELAY: 256
+# 2**8 (= 256) epochs ~27 hours
+SHARD_COMMITTEE_PERIOD: 256
 # 2**11 (= 2,048) Eth1 blocks ~8 hours
-ETH1_FOLLOW_DISTANCE: 12
+ETH1_FOLLOW_DISTANCE: 2048
 
 
 # Validator cycle
