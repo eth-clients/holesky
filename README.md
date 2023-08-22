@@ -22,7 +22,7 @@ This is _work in progress_. The final config will be shared prior to launch date
   * Epoch time: `1694790240` (64 minutes after genesis)
 * Network ID: `17000`
 * Chain ID: `17000`
-* Genesis Hash: `0xff9006..64f23d`
+* Genesis Hash: `0xff9006519a8ce843ac9c28549d24211420b546e12ce2d170c77a8cca7964f23d`
 * EVM Version: London
   * Homestead: 0 (block number)
   * Byzantium: 0 (block number)
