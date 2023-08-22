@@ -15,7 +15,7 @@
     "terminalTotalDifficulty": 0,
     "shanghaiTime": 1694790240,
     "ethash": {},
-    "cancunTime": 18446744073709551615
+    "cancunTime": 2000000000
   },
   "alloc": {
     "0x0000000000000000000000000000000000000000": {
