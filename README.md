@@ -18,8 +18,8 @@ This is _work in progress_. The final config will be shared prior to launch date
 * Execution Version: Cancun _(TBD)_
 * Consensus Version: Deneb _(TBD)_
 * Merge: At Genesis (`0`)
-* Shapella Epoch: `10`
-  * Epoch time: `1694790240` (64 minutes after genesis)
+* Shapella Epoch: `256`
+  * Epoch time: `1694884704` (**Sept/16, 2023, 17:18:24 UTC**)
 * Network ID: `17000`
 * Chain ID: `17000`
 * Genesis Execution Block payload:
