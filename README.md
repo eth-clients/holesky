@@ -66,9 +66,9 @@ uncles: []
   * `enr:-Ly4QJLXSSAj3ggPBIcodvBU6IyfpU_yW7E9J-5syoJorBuvcYj_Fokcjr303bQoTdWXADf8po0ssh75Mr5wVGzZZsMBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpCpfoNmMAFwAAABAAAAAAAAgmlkgnY0gmlwhJK-DYCJc2VjcDI1NmsxoQJrIlXIQDvQ6t9yDySqJYDXgZgLXzTvq8W7OI51jfmxJohzeW5jbmV0cwCDdGNwgiMog3VkcIIjKA`
   * // TEKU
   * `enr:-LK4QMlzEff6d-M0A1pSFG5lJ2c56i_I-ZftdojZbW3ehkGNM4pkQuHQqzVvF1BG9aDjIakjnmO23mCBFFZ2w5zOsugEh2F0dG5ldHOIAAAAAAYAAACEZXRoMpCpfoNmMAFwAAABAAAAAAAAgmlkgnY0gmlwhKyuI_mJc2VjcDI1NmsxoQIH1kQRCZW-4AIVyAeXj5o49m_IqNFKRHp6tSpfXMUrSYN0Y3CCIyiDdWRwgiMo`
-* Deposit contract address: `0x4242424242424242424242424242424242424242`
   * // Sigma Prime
   * `enr:-Le4QI88slOwzz66Ksq8Vnz324DPb1BzSiY-WYPvnoJIl-lceW9bmSJnwDzgNbCjp5wsBigg76x4tValvGgQPxxSjrMBhGV0aDKQqX6DZjABcAAAAQAAAAAAAIJpZIJ2NIJpcIQ5gR6Wg2lwNpAgAUHQBwEQAAAAAAAAADR-iXNlY3AyNTZrMaEDPMSNdcL92uNIyCsS177Z6KTXlbZakQqxv3aQcWawNXeDdWRwgiMohHVkcDaCI4I`
+* Deposit contract address: `0x4242424242424242424242424242424242424242`
 
 ### Resources
 * Ethstats: [https://ethstats.holesky.ethpandaops.io](https://ethstats.holesky.ethpandaops.io)
