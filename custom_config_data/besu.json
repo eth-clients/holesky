@@ -14,8 +14,7 @@
     "preMergeForkBlock": 0,
     "terminalTotalDifficulty": 0,
     "shanghaiTime": 1694884704,
-    "ethash": {},
-    "cancunTime": 2000000000
+    "ethash": {}
   },
   "alloc": {
     "0x0000000000000000000000000000000000000000": {
