@@ -1,0 +1,2 @@
+parsedBeaconState.json filter=lfs diff=lfs merge=lfs -text
+genesis.ssz filter=lfs diff=lfs merge=lfs -text

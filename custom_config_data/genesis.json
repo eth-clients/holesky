@@ -14,7 +14,7 @@
     "mergeNetsplitBlock": 0,
     "terminalTotalDifficulty": 0,
     "terminalTotalDifficultyPassed": true,
-    "shanghaiTime": 1694884704
+    "shanghaiTime": 1696000704
   },
   "alloc": {
     "0x0000000000000000000000000000000000000000": {
@@ -1010,5 +1010,5 @@
   "nonce": "0x1234",
   "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "timestamp": "1694786100"
+  "timestamp": "1695902100"
 }
