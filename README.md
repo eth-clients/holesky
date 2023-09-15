@@ -12,40 +12,18 @@ This is _work in progress_. The final config will be shared prior to launch date
 * Status: _Planned_ ([#3](https://github.com/eth-clients/holesky/issues/3))
 * Flag: `--holesky`
 * Flavor: Permissionless (Proof-of-Stake), _to replace Goerli_
-* Launch Date: **Sept/15, 2023, 14:00 UTC**
-  * Epoch time: 1694786400
+* Launch Date: **Sept/28, 2023, 12:00 UTC**
+  * Epoch time: 1695902400
   * LTS: Dec/2027, EOL: Dec/2028
 * Execution Version: Cancun _(TBD)_
 * Consensus Version: Deneb _(TBD)_
 * Merge: At Genesis (`0`)
 * Shapella Epoch: `256`
-  * Epoch time: `1694884704` (**Sept/16, 2023, 17:18:24 UTC**)
+  * Epoch time: `1696000704` (**Sept/29, 2023, 15:18:24 UTC**)
 * Network ID: `17000`
 * Chain ID: `17000`
 * Genesis Execution Block payload:
-```yaml
-baseFeePerGas: 1000000000,
-difficulty: 1,
-extraData: "",
-gasLimit: 25000000,
-gasUsed: 0,
-hash: "0xff9006519a8ce843ac9c28549d24211420b546e12ce2d170c77a8cca7964f23d",
-logsBloom: "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-miner: "0x0000000000000000000000000000000000000000",
-mixHash: "0x0000000000000000000000000000000000000000000000000000000000000000",
-nonce: "0x0000000000001234",
-number: 0,
-parentHash: "0x0000000000000000000000000000000000000000000000000000000000000000",
-receiptsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
-sha3Uncles: "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-size: 535,
-stateRoot: "0x69d8c9d72f6fa4ad42d4702b433707212f90db395eb54dc20bc85de253788783",
-timestamp: 1694786100,
-totalDifficulty: 1,
-transactions: [],
-transactionsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
-uncles: []
-```
+
 * EVM Version: London
   * Homestead: 0 (block number)
   * Byzantium: 0 (block number)
@@ -55,7 +33,7 @@ uncles: []
   * Berlin: 0 (block number)
   * MuirGlacier: 0 (block number)
   * London: 0 (block number)
-  * Shanghai: 1694790240 (unix time)
+  * Shanghai: 1696000704 (unix time)
   * Cancun: _(TBD)_
 * Bootnodes Execution layer:
   * `enode://ac906289e4b7f12df423d654c5a962b6ebe5b3a74cc9e06292a85221f9a64a6f1cfdd6b714ed6dacef51578f92b34c60ee91e9ede9c7f8fadc4d347326d95e2b@146.190.13.128:30303`
