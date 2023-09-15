@@ -26,7 +26,7 @@ This is _work in progress_. The final config will be shared prior to launch date
 ```yaml
 baseFeePerGas: 1000000000,
 difficulty: 1,
-extraData: "0x686f77206d7563682069732074686520666973683f",
+extraData: "",
 gasLimit: 25000000,
 gasUsed: 0,
 hash: "0xff9006519a8ce843ac9c28549d24211420b546e12ce2d170c77a8cca7964f23d",
