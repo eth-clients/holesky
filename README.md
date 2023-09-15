@@ -71,7 +71,7 @@ uncles: []
 * Deposit contract address: `0x4242424242424242424242424242424242424242`
 
 ### Resources
-* Explorer (EL+CL) [https://holesky.beaconcha.in/](https://holesky.beaconcha.in/)
+* Block Explorer (EL+CL) [https://holesky.beaconcha.in/](https://holesky.beaconcha.in/)
 * Ethstats: [https://ethstats.holesky.ethpandaops.io](https://ethstats.holesky.ethpandaops.io)
 * Homepage: [https://holesky.ethpandaops.io](https://holesky.ethpandaops.io)
 * Latest Proposal: [Ethereum Magicians - Predictable Ethereum Testnet Lifecycle](https://ethereum-magicians.org/t/proposal-predictable-ethereum-testnet-lifecycle/11575)
