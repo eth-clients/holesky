@@ -80,3 +80,4 @@ This is _work in progress_. The final config will be shared prior to launch date
 * Homepage: [https://holesky.ethpandaops.io](https://holesky.ethpandaops.io)
 * Latest Proposal: [Ethereum Magicians - Predictable Ethereum Testnet Lifecycle](https://ethereum-magicians.org/t/proposal-predictable-ethereum-testnet-lifecycle/11575)
 * Some Context: [Ethereum Magicians - Paths out of the Goerli supply mess](https://ethereum-magicians.org/t/testnet-workgroup-paths-out-of-the-goerli-supply-mess/11453)
+* Faucets: [QuickNode Faucet](https://faucet.quicknode.com/ethereum/holesky)
