@@ -32,6 +32,7 @@ Meet `--holesky`, the first long-standing, merged-from-genesis, public Ethereum 
 * State root on EL: `0x69d8c9d72f6fa4ad42d4702b433707212f90db395eb54dc20bc85de253788783`
 * Block root on CL: `0xab09edd9380f8451c3ff5c809821174a36dce606fea8b5ea35ea936915dbf889`
 * State root on CL: `0x0ea3f6f9515823b59c863454675fefcd1d8b4f2dbe454db166206a41fda060a0`
+* Genesis validator root: `0x9143aa7c615a7f7115e2b6aac319c03529df8242ae705fba9df39b79c59fa8b1`
 * Deposit contract address: `0x4242424242424242424242424242424242424242`
 
 ### Resources
