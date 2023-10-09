@@ -47,5 +47,6 @@ Meet `--holesky`, the first long-standing, merged-from-genesis, public Ethereum 
 * Faucets:
   * [holesky-faucet.pk910.de](https://holesky-faucet.pk910.de/)
   * [QuickNode Faucet](https://faucet.quicknode.com/ethereum/holesky)
+  * [Automata Holesky Faucet](https://holeskyfaucet.io)
 * Latest Proposal: [Ethereum Magicians - Predictable Ethereum Testnet Lifecycle](https://ethereum-magicians.org/t/proposal-predictable-ethereum-testnet-lifecycle/11575)
 * Some Context: [Ethereum Magicians - Paths out of the Goerli supply mess](https://ethereum-magicians.org/t/testnet-workgroup-paths-out-of-the-goerli-supply-mess/11453)
