@@ -23,8 +23,8 @@ Meet `--holesky`, the first long-standing, merged-from-genesis, public Ethereum 
   * Shanghai time: `1696000704` (**Sept/29, 2023, 15:18:24 UTC**)
   * Capella epoch: `256`
 * Dencun
-  * Cancun time: _TBD_
-  * Deneb epoch: _TBD_
+  * Cancun time: `1707305664`
+  * Deneb epoch: `29696`
 * Network ID: `17000`
 * Chain ID: `17000`
 * Genesis fork version: `0x01017000`
