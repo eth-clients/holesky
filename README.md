@@ -44,6 +44,7 @@ Meet `--holesky`, the first long-standing, merged-from-genesis, public Ethereum 
   * [holesky.etherscan.io](https://holesky.etherscan.io/)
   * [holesky.beaconcha.in](https://holesky.beaconcha.in/)
   * [dora-holesky.pk910.de](https://dora-holesky.pk910.de/)
+  * [eth-holesky.blockscout.com](https://eth-holesky.blockscout.com/)
 * Ethstats: [ethstats.holesky.ethpandaops.io](https://ethstats.holesky.ethpandaops.io)
 * Faucets:
   * [holesky-faucet.pk910.de](https://holesky-faucet.pk910.de/)
