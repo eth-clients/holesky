@@ -50,7 +50,16 @@
     "eip4788TransitionTimestamp": "0x65c36ac0",
     "eip5656TransitionTimestamp": "0x65c36ac0",
     "eip6780TransitionTimestamp": "0x65c36ac0",
-    "terminalTotalDifficulty": "0x0"
+    "terminalTotalDifficulty": "0x0",
+    "blobSchedule": [
+      {
+        "name": "prague",
+        "timestamp": "0x67bceaC0",
+        "target": 6,
+        "max": 9,
+        "baseFeeUpdateFraction": "0x4c6964"
+      }
+    ]
   },
   "genesis": {
     "seal": {
