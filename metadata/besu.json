@@ -26,11 +26,6 @@
         "target": 6,
         "max": 9,
         "baseFeeUpdateFraction": 5007716
-      },
-      "osaka": {
-        "target": 6,
-        "max": 9,
-        "baseFeeUpdateFraction": 5007716
       }
     },
     "ethash": {},
