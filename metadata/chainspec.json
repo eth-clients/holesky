@@ -59,20 +59,20 @@
         "baseFeeUpdateFraction": "0x32f0ed"
       },
       {
-        "timestamp": "0x67E41118",
+        "timestamp": "0x67bceac0",
         "target": 6,
         "max": 9,
         "baseFeeUpdateFraction": "0x4c6964"
       }
     ],
     "depositContractAddress": "0x4242424242424242424242424242424242424242",
-    "eip2537TransitionTimestamp": "0x67E41118",
-    "eip2935TransitionTimestamp": "0x67E41118",
-    "eip6110TransitionTimestamp": "0x67E41118",
-    "eip7002TransitionTimestamp": "0x67E41118",
-    "eip7251TransitionTimestamp": "0x67E41118",
-    "eip7623TransitionTimestamp": "0x67E41118",
-    "eip7702TransitionTimestamp": "0x67E41118"
+    "eip2537TransitionTimestamp": "0x67bceac0",
+    "eip2935TransitionTimestamp": "0x67bceac0",
+    "eip6110TransitionTimestamp": "0x67bceac0",
+    "eip7002TransitionTimestamp": "0x67bceac0",
+    "eip7251TransitionTimestamp": "0x67bceac0",
+    "eip7623TransitionTimestamp": "0x67bceac0",
+    "eip7702TransitionTimestamp": "0x67bceac0"
   },
   "genesis": {
     "seal": {
