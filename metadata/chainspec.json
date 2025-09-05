@@ -50,7 +50,29 @@
     "eip4788TransitionTimestamp": "0x65c36ac0",
     "eip5656TransitionTimestamp": "0x65c36ac0",
     "eip6780TransitionTimestamp": "0x65c36ac0",
-    "terminalTotalDifficulty": "0x0"
+    "terminalTotalDifficulty": "0x0",
+    "blobSchedule": [
+      {
+        "timestamp": "0x0",
+        "target": 3,
+        "max": 6,
+        "baseFeeUpdateFraction": "0x32f0ed"
+      },
+      {
+        "timestamp": "0x67bceac0",
+        "target": 6,
+        "max": 9,
+        "baseFeeUpdateFraction": "0x4c6964"
+      }
+    ],
+    "depositContractAddress": "0x4242424242424242424242424242424242424242",
+    "eip2537TransitionTimestamp": "0x67bceac0",
+    "eip2935TransitionTimestamp": "0x67bceac0",
+    "eip6110TransitionTimestamp": "0x67bceac0",
+    "eip7002TransitionTimestamp": "0x67bceac0",
+    "eip7251TransitionTimestamp": "0x67bceac0",
+    "eip7623TransitionTimestamp": "0x67bceac0",
+    "eip7702TransitionTimestamp": "0x67bceac0"
   },
   "genesis": {
     "seal": {
