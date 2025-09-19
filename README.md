@@ -20,11 +20,22 @@ Meet `--holesky`, the first long-standing, merged-from-genesis, public Ethereum 
 * Consensus Version: Bellatrix
 * Merge: At Genesis (`0`)
 * Shapella
-  * Shanghai time: `1696000704` (**Sept/29, 2023, 15:18:24 UTC**)
+  * Shanghai time: `1696000704` - Friday, 29 September 2023 15:18:24
   * Capella epoch: `256`
 * Dencun
-  * Cancun time: `1707305664`
+  * Cancun time: `1707305664` - Wednesday, 7 February 2024 11:34:24
   * Deneb epoch: `29696`
+* Pectra
+  * Prague time: `1740434112` - Monday, 24 February 2025 21:55:12
+  * Electra epoch: `115968`
+* Fusaka
+  * Osaka time: `1759308480` - Wednesday, 1 October 2025 08:48:00
+  * Fulu epoch: `165120`
+* BPO:
+  * BPO 1 time: `1759800000` - Tuesday, 7 October 2025 01:20:00
+  * BPO 1 epoch: `166400`
+  * BPO 2 time: `1760389824` - Monday, 13 October 2025 21:10:24
+  * BPO 2 epoch: `167936`
 * Network ID: `17000`
 * Chain ID: `17000`
 * Genesis fork version: `0x01017000`
