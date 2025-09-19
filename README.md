@@ -1,5 +1,5 @@
-<a href="https://github.com/eth-clients/sepolia">Sepolia (2021)</a> | <strong>Holešky (2023)</strong></p> | <a href="[https://github.com/eth-clients/sepolia](https://github.com/eth-clients/hoodi)">Hoodi (2025)</a>
-<p align="center"><img src="./assets/holesovice.png" /></p>
+<a href="https://github.com/eth-clients/sepolia">Sepolia (2021)</a> | <strong>Holešky (2023)</strong> | <a href="https://github.com/eth-clients/hoodi">Hoodi (2025)</a></p>
+<p align="center"><img src="./assets/hoodi.png" /></p>
 
 # Holešky (Holešovice Testnet)
 
