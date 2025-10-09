@@ -53,7 +53,7 @@
     "terminalTotalDifficulty": "0x0",
     "blobSchedule": [
       {
-        "timestamp": "0x0",
+        "timestamp": "0x65c36ac0",
         "target": 3,
         "max": 6,
         "baseFeeUpdateFraction": "0x32f0ed"
