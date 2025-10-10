@@ -14,7 +14,7 @@ Meet `--holesky`, the first long-standing, merged-from-genesis, public Ethereum 
 * Flag: `--holesky`
 * Flavor: Permissionless (Proof-of-Stake), _to replace Goerli_
 * Launch Date: **Sept/28, 2023, 12:00 UTC**
-  * Linux Epoch time: 1695902400
+  * Linux Epoch time: 1695902100
   * LTS: Dec/2027, EOL: Dec/2028
 * Execution Version: London
 * Consensus Version: Bellatrix
